@@ -1,12 +1,6 @@
-#include <iostream>
-#include <cmath>
-#include <vector>
-#include <algorithm>
-#include <set>
-#include <cmath>
-#include <iomanip>
+#include <bits/stdc++.h>
 using namespace std;
-double pog=1e-6;
+double pog = 1e-6;
 
 struct vec {
     double x, y;
