@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <iostream>
 #include <fstream>
 #include<set>
@@ -46,4 +47,4 @@ int main(){
     }
     cout<<l<<" "<<r<<" "<<ans;
     return 0;
-}
+=======
