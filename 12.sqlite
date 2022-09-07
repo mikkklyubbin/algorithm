@@ -1,0 +1,24 @@
+--
+-- File generated with SQLiteStudio v3.3.3 on ѕт сен 2 12:24:14 2022
+--
+-- Text encoding used: System
+--
+PRAGMA foreign_keys = off;
+BEGIN TRANSACTION;
+
+-- Table: users
+DROP TABLE IF EXISTS users;
+
+CREATE TABLE users (
+    id          INTEGER,
+    is_comand   BOOLEAN,
+    is_solo     BOOLEAN,
+    need_points STRING,
+    PRIMARY KEY (
+        id
+    )
+);
+
+
+COMMIT TRANSACTION;
+PRAGMA foreign_keys = on;
